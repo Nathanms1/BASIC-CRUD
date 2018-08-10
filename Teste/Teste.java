@@ -12,7 +12,7 @@ public class Teste {
 		
 		popularArray();
 		listarPessoas();
-		rp.deletarPessoaPorID(2);
+		rp.deletarPessoaPorID(2); //deletar√° a pessoa de ID 2 
 		listarPessoas();
 		alterar();
 		listarPessoas();
@@ -24,9 +24,9 @@ public class Teste {
 		pessoa.setApelido("Loco");
 		pessoa.setId(3);
 		pessoa.setIdade(72);
-		pessoa.setNome("OnesÌforoLOCO");
+		pessoa.setNome("Ones√≠foroLOCO");
 		rp.alteraPessoa(pessoa);
-	
+	//ap√≥s esta parte, o NOME ser√° alterado
 	}
 	
 	public static void popularArray() {
@@ -50,10 +50,10 @@ public class Teste {
 		pessoa.setApelido("Loco");
 		pessoa.setId(3);
 		pessoa.setIdade(72);
-		pessoa.setNome("OnesÌforo");
+		pessoa.setNome("Ones√≠foro");
 		rp.salvaPessoa(pessoa);
 	
-		//apÛs esta parte, salvar· as informaÁıes no banco 
+		//ap√≥s esta parte, salvar√° as informa√ß√µes no banco 
 	}
 		
 	public static void listarPessoas() {
